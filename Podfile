@@ -12,6 +12,5 @@ target 'A_Category' do
   pod "CTMediator"
 
   # private pods
-  pod "SwiftHandyFrame"
  
 end
