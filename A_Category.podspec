@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 4
+# version.develop = 0
 # version.test = 0
 # version.gray = 0
 
@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A_Category"
-  s.version      = "4.0.0"
-  s.swift_version = '5.1'
+  s.version      = "1.0.0"
   s.summary      = "A_Category."
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +95,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "A_Category/*.{h,m,swift}"
+  s.source_files  = "A_Category/A_Category/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -138,6 +137,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTMediator"
+  s.dependency "CTMediator"
 
 end
