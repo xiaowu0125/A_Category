@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)A_aViewController;
 
+- (UIViewController *)A_Category_Objc_ViewControllerWithCallback:(void(^)(NSString *result))callback;
+
 @end
 
 NS_ASSUME_NONNULL_END
